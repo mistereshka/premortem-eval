@@ -164,4 +164,4 @@ look harder.
 
 The app: [Premortem — Risk Assessment for Jira](https://marketplace.atlassian.com/apps/3455340266/premortem-risk-assessment-for-jira),
 free, runs on your own AI key.
-Documentation: https://mistereshka.github.io/premortem-docs/
+Documentation: https://usepremortem.com/
