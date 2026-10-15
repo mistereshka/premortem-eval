@@ -1,0 +1,10 @@
+{
+ "key": "BT-44",
+ "kind": "task",
+ "title": "Fix the typo and the wrong currency symbol in the refund confirmation copy",
+ "description": "Two copy problems on the refund confirmation screen, both reported by the same customer:\n\n* \"Your refund has been proccessed\" — double c, single s. Should be \"processed\".\n* The heading says \"Refund total (£)\" on every locale, including the euro ones. The amount underneath is already formatted correctly by the existing currency formatter; only the hard-coded symbol in the heading is wrong. Drop the symbol from the heading entirely — the formatted amount already carries it.\n\nCopy only. No change to the amount, the formatter, or anything that computes it.",
+ "expect": {
+  "max_risks": 2,
+  "note": "The vocabulary trap: pure copy, stuffed with refund/currency/locale/amount/formatter. Any risk about money movement or refund correctness is a false positive. Before the proportionality rule: 3 risks, 604 out."
+ }
+}

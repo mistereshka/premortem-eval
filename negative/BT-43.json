@@ -1,0 +1,10 @@
+{
+ "key": "BT-43",
+ "kind": "task",
+ "title": "Rename the \"Overview\" tab to \"Summary\" across the settings screens",
+ "description": "Support keeps getting asked what the difference is between the \"Overview\" tab and the \"Summary\" panel below it. There isn't one — the tab was named before the panel existed.\n\nRename the tab label to \"Summary\" on all four settings screens, and update the three places in the docs that quote the old label. Nothing else changes: same route, same component, same data.",
+ "expect": {
+  "max_risks": 2,
+  "note": "A rename with the scope stated. The prompt says an empty response is appropriate here; before the proportionality rule this produced 5 risks and 944 output tokens."
+ }
+}
